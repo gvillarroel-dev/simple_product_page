@@ -6,7 +6,7 @@
 
 <div align="center">
   <h3>
-    <a href="#">
+    <a href="https://gvillarroel-dev.github.io/simple_product_page/">
       Demo
     </a>
     <span> | </span>
@@ -60,5 +60,5 @@ This [DevChallenges](https://devchallenges.io/challenges-dashboard) project rein
 
 ## Author
 
-- Website [running shoes product page](#)
+- Website [running shoes product page](https://gvillarroel-dev.github.io/simple_product_page/)
 - GitHub [@gvillarroel-dev](https://github.com/gvillarroel-dev)
