@@ -9,41 +9,43 @@
 </head>
 <body>
     <main class="main">
-        <div class="product__image">
-            <img src="./assets/media/shoes.jpg" alt="A simple shoes image">
-        </div>
-        <div class="product__content">
-            <div class="product__header">
-                <ul>
-                    <li>Home</li>
-                    <li>Products</li>
-                    <li>Sneakers</li>
-                </ul>
+        <article class="product__item">
+            <div class="product__image">
+                <img src="./assets/media/shoes.jpg" alt="A simple shoes image">
             </div>
-            <div class="product__description">
-                <h2>Nike Air Zoom Pegasus 38 for Running Men</h2>
-                <p>The Nike Air Zoom Pegasus 38 is a high-performance running shoe designed for speed and agility. With its lightweight and responsive midsole, this shoe provides a smooth ride and excellent cushioning. The Pegasus 38 features a full-length Zoom Air unit for added bounce and a more natural stride. The upper is made of a breathable mesh material with a supportive Flyknit construction for a snug and comfortable fit.</p>
-                <div class="description__list">
-                    <p><strong>Highlights:</strong></p>
+            <div class="product__content">
+                <section class="product__header">
                     <ul>
-                        <li>Lightweight and Responsive Midsole.</li>
-                        <li>Full-Length Zoom Air Unit.</li>
-                        <li>Breathable Mesh Uppe.</li>
+                        <li><a href="#">Home</a></li>
+                        <li><a class="item_list" href="#">Products</a></li>
+                        <li><a class="lighter__text item_list" href="#">Sneakers</a></li>
                     </ul>
-                </div>
+                </section>
+                <section class="product__description">
+                    <h2>Nike Air Zoom Pegasus 38 for Running Men</h2>
+                    <p>The Nike Air Zoom Pegasus 38 is a high-performance running shoe designed for speed and agility. With its lightweight and responsive midsole, this shoe provides a smooth ride and excellent cushioning. The Pegasus 38 features a full-length Zoom Air unit for added bounce and a more natural stride. The upper is made of a breathable mesh material with a supportive Flyknit construction for a snug and comfortable fit.</p>
+                    <div class="description__list">
+                        <p>Highlights:</p>
+                        <ul>
+                            <li>Lightweight and Responsive Midsole.</li>
+                            <li>Full-Length Zoom Air Unit.</li>
+                            <li>Breathable Mesh Uppe.</li>
+                        </ul>
+                    </div>
+                </section>
+                <section class="product__specifications">
+                    <div class="specification__color-label">COLOR</div>
+                    <div class="specification__size-label">SIZE</div>
+                    <div class="specification__color-value">Black</div>
+                    <div class="specification__size-value">42</div>
+                    <div class="specification__price">$59.00</div>
+                </section>
+                <section class="product__cta">
+                    <a href="#" class="cart__btn">Add to cart</a>
+                    <a href="#" class="favorite__btn"><img src="./assets/media/heart.svg" alt="a simple heart-shaped icon" width="25px">Add to wishlist</a>
+                </section>
             </div>
-            <div class="product__specifications"> <!-- hacer grid para posicionar elementos dentro -->
-                <p class="specifications__heading">COLOR</p>
-                <p class="specifications__item"><strong>Black</strong></p>
-                <p class="specifications__heading">SIZE</p>
-                <p class="specifications__item"><strong>42</strong></p>
-                <p class="specifications__price"><strong>$59.00</strong></p>
-            </div>
-            <div class="product__cta">
-                <a href="#" class="cart-btn">Add to cart</a>
-                <a href="#" class="favorite-btn"><img src="./assets/media/heart.svg" alt="a simple heart-shaped icon">Add to wishlist</a>
-            </div>
-        </div>
+        </article>
     </main>
     <footer class="footer">
       <p class="author-info">
